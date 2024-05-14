@@ -1,0 +1,96 @@
+
+        .mt-lvl-link{
+            color: #fff;
+            bottom: 40px; 
+            left: 50%;
+            transform: translateX(-50%); 
+            z-index: 10;
+
+            animation: mt-lvl 0.8s ease-out 1s forwards ;
+        }
+        .mt-lvl-link:hover{
+            color: #fff;
+        }
+        .mt-lvl-link .btn-arrow{
+            all: unset;
+            background: #ffffff52;
+            font-size: 23px;
+            height: 50px;
+            width: 50px;
+            border-radius: 1000px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+
+            transition: 0.3s;
+        }
+        .mt-lvl-link:hover .btn-arrow{
+            background-color: #fff;
+            color: #000000;
+        }
+        .mt-lvl-link .txt{
+            margin-bottom: 0.5rem;
+            transform: scale(0.9);
+            transition: 0.3s;
+
+            animation: mt-lvl-txt 0.6s ease-out 1s forwards ;
+        }
+        .mt-lvl-link:hover .txt{
+            transform: scale(1);
+        }
+
+        @keyframes mt-lvl {
+            0% {
+                bottom: 40px; 
+            }
+            50% {
+                bottom: 20px; 
+            }
+            100% {
+                bottom: 40px; 
+            }
+        }
+
+        @keyframes mt-lvl-txt {
+            0% {
+                margin-bottom: 0.5rem; 
+            }
+            50% {
+                margin-bottom: calc(0.5rem + 20px); 
+            }
+            100% {
+                margin-bottom: 0.5rem; 
+            }
+        }
+
+        .lg-backdrop{
+            background-color: rgba(0, 0, 0, 0.96);
+        }
+		 .cmmi-wrapper{
+            display: block;
+            background: #ffffff;
+            padding: 18px 40px 18px 18px;
+            border-radius: 20px 0 0 20px;
+        }
+		.Banner{
+	background-color:black;
+	color:white;
+	 border-radius: 0px;
+	 height:50px;
+	 opacity:1;
+			
+		}
+		.sg{
+			position:absolute;
+			top:30%;
+			left:65%;
+			height:100px;
+		}
+		body
+		{
+			
+			background-size:cover;
+			background-position:center;
+			
+		}
